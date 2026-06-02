@@ -1,0 +1,14 @@
+  .venv/
+  .pytest_cache/
+  __pycache__/
+  Iglu/node_modules/
+  *.pyc
+  EOF
+
+  # Step 4 — Stage and commit everything
+  git add .
+  git commit -m "Initial commit — Iglu full project"
+
+  # Step 5 — Add remote and push
+  git remote add origin https://github.com/thomaszambrano/App-Iglu.git
+  git push -u origin main
